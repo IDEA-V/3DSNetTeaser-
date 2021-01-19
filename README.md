@@ -24,3 +24,8 @@ Run pipeline.py with number of threads you want.
 ```
  OMP_NUM_THREADS=16 python pipeline.py
 ```
+
+## Tips
+Always remember to transform your .ply file to ascii form, otherwise 3DSmoothNet can't read them.
+Most of time, you don't generate keypoints more than 20000, otherwise it either is too slow or just cracks.
+Too less threads lead to abortion or segmentation fault.
