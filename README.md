@@ -27,5 +27,7 @@ Run pipeline.py with number of threads you want.
 
 ## Tips
 Always remember to transform your .ply file to ascii form, otherwise 3DSmoothNet can't read them.
+
 Most of time, you don't generate keypoints more than 20000, otherwise it either is too slow or just cracks.
+
 Too less threads lead to abortion or segmentation fault.
